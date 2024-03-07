@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    margin-top: 50px;
+    text-align: center;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 300px;
+    max-width: 400px;
+    border: 2px solid red;
+    justify-content: center;
+    margin: 100px auto;
+}
